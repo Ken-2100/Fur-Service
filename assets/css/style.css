@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900|Roboto:100,300,400,500&display=swap");
 
 *{
+    scroll-behavior: smooth;
     text-decoration: none;
 }.white-bg{
     background:#d4c9c9
@@ -478,7 +479,8 @@ hr{
     border-radius:50%;
     line-height:48px;
     border:2px solid transparent;
-    box-shadow:0 0 10px 3px rgba(108,98,98,0.2)
+    box-shadow:0 0 10px 3px rgba(108,98,98,0.2);
+
 }
 @media (max-width: 575px){
     #scrollUp,#back-top{
@@ -5742,4 +5744,6 @@ b,sup,sub,u,del{
 .switch-wrap{
     margin-bottom:10px
 }
+
+   
  
