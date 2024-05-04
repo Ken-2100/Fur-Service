@@ -2414,7 +2414,7 @@ hr{
     background:#a3a3a3
 }
 .slider-area2{
-    background-image:url(../img/hero/hero2.png);
+    background-image:url(/assets/images/);
     background-repeat:no-repeat;
     background-position:center center;
     background-size:cover
