@@ -325,3 +325,15 @@ header{
 
 }
 
+/*  ABOUT PAGE STYLING */
+
+.about-bg-img {
+   width: 99.2%;
+   border: 5px solid black
+}
+
+.about-bg-img img{
+   width: 100% ;
+
+}
+
