@@ -3,13 +3,14 @@
     margin: 0;
     text-decoration: none;
     list-style-type: none;
+    scroll-behavior: smooth;
    
    
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    scroll-behavior: smooth;
+ 
  
     
 
@@ -19,6 +20,26 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+
+}
+
+.go-top{
+   position: fixed;
+   right: 0;
+   bottom: 0;
+  
+
+   /* border: 5px solid orange; */
+}
+
+.go-top a i{
+   font-size: 30px;
+   color: #CDE8E5;
+   background-color: #4D869C;
+   padding: 10px;
+   border-radius: 10px;
+   
+   
 
 }
 
@@ -269,3 +290,4 @@ header{
    position: relative;
 
 }
+
