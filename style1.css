@@ -156,6 +156,14 @@ header{
     color: red ;
  }
 
+ 
+ .gallery-service{
+   display: inline-flex;
+   gap: 10px;
+   justify-content: space-between;
+   border: 5px solid black;
+ }
+
 
 
 
