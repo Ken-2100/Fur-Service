@@ -98,7 +98,7 @@ header{
 
  .nav-btn ul li a:hover{
     color: white;
-    background-color: #F8B400;
+    background-color: #4D869C;
     padding: 10px;
     border-radius: 10px;
     text-transform: uppercase;
@@ -288,6 +288,40 @@ header{
 
 .footer-container{
    position: relative;
+
+}
+
+.footer-container{
+   display: flex;
+   flex-flow: column wrap;
+   gap: 20px;
+   align-items: center;
+   justify-content: space-between;
+
+   background-color: #4D869C ;
+   
+   margin-top: 20px;
+}
+
+.footer-container .icons-container h1{
+   color:#CDE8E5;
+}
+
+.footer-container .icons-container i {
+   color: #7BC9FF ;
+   font-size: 30px;
+   padding-right: 30px;
+
+}
+
+.footer-container .about-container{
+   color: aliceblue;
+   font-size: 1.2rem;
+}
+
+
+.footer-container .footer-bottom p{
+   color: #ccc;
 
 }
 
