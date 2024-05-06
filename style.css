@@ -15,7 +15,7 @@ body{
     
 
 }
-
+ /* HEADER SECTION */
 header{
     position: sticky;
     top: 0;
@@ -104,6 +104,8 @@ header{
     text-transform: uppercase;
     font-weight: 600;
  }
+
+ /* Header section end here */
 
  .main-container{
     width: 99vw;
@@ -286,6 +288,8 @@ header{
    
 }
 
+/* FOOTER start here */
+
 .footer-container{
    position: relative;
 
@@ -325,15 +329,85 @@ header{
 
 }
 
+
+
 /*  ABOUT PAGE STYLING */
+/*  */
+.abouts-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   gap: 100px;
+}
+
+
 
 .about-bg-img {
+   /* position: absolute; */
    width: 99.2%;
-   border: 5px solid black
+   height: 100vh;
+  
+  
+}
+
+.about-bg-img .bg-img-h1{
+
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   display: flex;
+  
+}
+
+ .bg-img-h1 h1{
+
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+   /* position: relative; */
+   /* z-index: 1; */
+   /* top: 200px; */
+   /* align-items: center; */
+   font-size: 60px;
+   
+
+
 }
 
 .about-bg-img img{
-   width: 100% ;
+   position: absolute;
+   z-index: -1;
+   width: 100vw;
+   height: 100vh;
+   top: 0;
+   
 
+}
+
+
+.about-mv{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   justify-content:space-evenly;
+
+   padding: 20px;
+   margin: 20px;
+
+   background-color: #4D869C;
+   color:#ccc;
+   border-radius: 10px;
+   
+
+   /* border: 5px solid black; */
+
+} 
+
+.team-img{
+   display: flex;
+   gap: 30px;
 }
 
